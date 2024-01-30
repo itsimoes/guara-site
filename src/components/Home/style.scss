@@ -1,0 +1,29 @@
+.home_wrapper {
+    height: 100vh;
+    background: url("../../assets/images/home-bg.jpg") top right no-repeat;
+    background-size: 112%;
+}
+
+// .home_watermark {
+//     font-family: "Kreon", serif;
+//     font-size: 125px;
+//     line-height: 0.8;
+//     color: var(--primary-transparent_gray);
+//     -webkit-text-stroke: 2px rgba(204, 204, 204, 0.25);
+//     margin-right: 800px;
+//     margin-top: 250px;
+// }
+
+.home_logo {
+    width: 280px;
+    margin-right: 800px;
+    margin-top: 250px;
+}
+
+.home_card_container {
+    h1 {
+        font-size: 22px;
+        color: var(--primary-orange);
+        font-weight: 400;
+    }
+}
