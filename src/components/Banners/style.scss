@@ -1,0 +1,35 @@
+.about_wrapper {
+  background-color: var(--primary_orange);
+  color: var(--primary_black);
+  height: 300px;
+}
+
+.banner_container {
+  width: 100vw;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.about_banner_title {
+  color: var(--primary_white);
+
+  span {
+    color: var(--primary_black);
+  }
+}
+
+.banner_left_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 200px;
+}
+
+.banner_logo {
+  width: 300px;
+  height: auto;
+  
+  g {
+    fill: var(--primary_black);
+  }
+}
