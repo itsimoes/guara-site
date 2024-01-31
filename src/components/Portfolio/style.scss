@@ -20,77 +20,102 @@
       color: var(--primary_white);
     }
   }
+}
+
+.portfolio_subtitle_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 20px;
 
   h3 {
     color: var(--primary_white);
     font-size: 40px;
     font-weight: 600;
-    margin-top: 20px;
   }
 }
 
-.portfolio_subtitle_container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.portfolio_button {
+  background-color: var(--primary_orange);
+  color: var(--primary_white);
+
+  &:hover {
+    color: var(--primary_orange);
+  }
 }
 
-.portfolio_button {
+.portfolio_button_reverse {
+  background-color: var(--primary_white);
+  color: var(--primary_orange);
+
+  &:hover {
     background-color: var(--primary_orange);
     color: var(--primary_white);
-
-    &:hover {
-        color: var(--primary_orange);
-    }
+  }
 }
 
+.portfolio_atendimento_cards_container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.portfolio_atendimento_card {
+    margin: 10px;
+    border: 2px solid var(--primary_white);
+
+    &:hover {
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+
+    }
+}
 
 //Carousel
 
 .projetos_carousel_wrapper {
-    width: 95%;
-    height: 330px;
-    margin: 0 auto;
-    margin-top: 30px;
-    margin-bottom: 30px;
+  width: 95%;
+  height: 330px;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.projetos_carousel_card {
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 40px;
+  height: 278px;
+  width: 500px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+
+  .portfolio_carousel_button {
+    margin-bottom: 20px;
   }
-  
-  .projetos_carousel_card {
-    box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 40px;
-    height: 278px;
-    width: 500px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-  
-    .portfolio_carousel_button {
-        margin-bottom: 20px;        
-    }
-  }
-  
-  #projetos_carousel_1 {
-    background: url("../../assets/images/barros720p.png")
-      top no-repeat;
-    background-size: contain;  
-  }
-  #projetos_carousel_2 {
-    background: url("../../assets/images/clinica_veterinaria720p.png")
-      top no-repeat;
-    background-size: contain;  
-  }
-  #projetos_carousel_3 {
-    background: url("../../assets/images/restaurante720p.png")
-      top no-repeat;
-    background-size: contain;  
-  }
-  #projetos_carousel_4 {
-    background: url("../../assets/images/studio720p.png")
-      top no-repeat;
-    background-size: contain;  
-  }
-  #projetos_carousel_5 {
-    background: url("../../assets/images/iphone720p.png")
-      top no-repeat;
-    background-size: contain;  
-  }
+}
+
+#projetos_carousel_1 {
+  background: url("../../assets/images/barros720p.png") top no-repeat;
+  background-size: contain;
+}
+#projetos_carousel_2 {
+  background: url("../../assets/images/clinica_veterinaria720p.png") top
+    no-repeat;
+  background-size: contain;
+}
+#projetos_carousel_3 {
+  background: url("../../assets/images/restaurante720p.png") top no-repeat;
+  background-size: contain;
+}
+#projetos_carousel_4 {
+  background: url("../../assets/images/studio720p.png") top no-repeat;
+  background-size: contain;
+}
+#projetos_carousel_5 {
+  background: url("../../assets/images/iphone720p.png") top no-repeat;
+  background-size: contain;
+}
