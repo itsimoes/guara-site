@@ -5,6 +5,7 @@ import ServicesIndex from "./components/Services/ServicesIndex";
 import ClientsBanner from "./components/Banners/ClientsBanner";
 import PortfolioIndex from "./components/Portfolio/PortfolioIndex";
 import Contact from "./components/Contact/Contact";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <ClientsBanner />
       <PortfolioIndex />
       <Contact />
+      <Footer />
     </>
   );
 }
