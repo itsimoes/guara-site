@@ -1,18 +1,23 @@
 import React from "react";
 import "./style.scss";
+import ContactForm from "./ContactForm";
 
 const Contact = () => {
   return (
     <div className="wrapper contact_wrapper">
       <div className="container contact_container">
-        <div className="contact_form_container">form</div>
+        <div className="contact_form_container">
+          <ContactForm />
+        </div>
         <div className="contact_text_container">
           <h3>Entre em contato conosco.</h3>
           <h4>Solicite seu orçamento ou agende uma consultoria.</h4>
           <p>
             Envie-nos um email para o endereço{" "}
-              
-            <a href="mailto:suporte@guaratecnologia.com" className="contact_email_link" >
+            <a
+              href="mailto:suporte@guaratecnologia.com"
+              className="contact_email_link"
+            >
               {" "}
               suporte@guaratecnologia.com{" "}
             </a>{" "}
