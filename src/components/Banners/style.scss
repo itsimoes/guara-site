@@ -33,3 +33,38 @@
     fill: var(--primary_black);
   }
 }
+
+
+//Clients banner
+.clients_wrapper {
+  background-color: var(--primary_white);
+  color: var(--primary_black);
+}
+
+.clients_container {
+  flex-direction: column;
+}
+
+.clients_banner_title {
+  color: var(--primary_black);
+  align-self: flex-start;
+
+  span {
+    color: var(--primary_orange);
+  }
+}
+
+.clients_border_detail {
+  align-self: flex-end;
+
+  line {
+    stroke: var(--primary_orange);
+  }
+}
+
+.clients_cards_container {
+  display: flex;
+  width: 90%; //change to 100% if there's more client logos
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}

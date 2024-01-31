@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.scss";
 
-import { ReactComponent as BorderDetail } from "../../assets/images/border_detail.svg";
+import { ReactComponent as BorderDetailLeft } from "../../assets/images/border_detail_left.svg";
 import { ReactComponent as LogoMonocrom } from "../../assets/images/logo_main_monocrom.svg";
 
 const AboutBanner = () => {
@@ -12,7 +12,7 @@ const AboutBanner = () => {
           <h2 className="about_banner_title">
             <span>_</span>QUEM SOMOS?
           </h2>
-          <BorderDetail />
+          <BorderDetailLeft />
         </div>
         <LogoMonocrom className="banner_logo" />
         <a href=" " className="button banner_button">
