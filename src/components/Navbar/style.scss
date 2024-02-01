@@ -11,13 +11,15 @@
 .bm-burger-bars {
   background: var(--primary_white);
   transition: all 0.3s ease;
+  border: 2px solid var(--primary_black);
 }
 
 /* Color/shape of burger icon bars on hover*/
 .bm-burger-bars-hover {
   background: var(--primary_orange);
-  opacity: 0.6 !important;
+  opacity: 1 !important;
   transition: all 0.3s ease;
+  box-shadow: rgba(0, 0, 0, 0.59) 0px 3px 3px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 }
 
 /* Position and sizing of clickable cross button */
