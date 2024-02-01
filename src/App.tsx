@@ -6,10 +6,12 @@ import ClientsBanner from "./components/Banners/ClientsBanner";
 import PortfolioIndex from "./components/Portfolio/PortfolioIndex";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
+import Navbar from "./components/Navbar/Navbar";
 
 function App() {
   return (
     <>
+      <Navbar />
       <Home />
       <AboutBanner />
       <ServicesIndex />
