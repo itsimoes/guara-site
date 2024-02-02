@@ -1,0 +1,35 @@
+.about_wrapper {
+  background-color: var(--primary_black);
+  color: var(--primary_white);
+}
+
+.about_container {
+  padding: 50px;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  background: url("../../assets/images/logo_simbolo_monocrom.svg") center
+    no-repeat;
+  background-size: 650px;
+  background-position: right;
+}
+
+.about_title {
+  color: var(--primary_white);
+
+  span {
+    color: var(--primary_orange);
+  }
+}
+
+.about_text_container {
+  width: 600px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  p {
+    margin-bottom: 20px;
+    text-align: justify;
+  }
+}

@@ -6,7 +6,7 @@ import { ReactComponent as LogoMonocrom } from "../../assets/images/logo_main_mo
 
 const AboutBanner = () => {
   return (
-    <div className="wrapper about_wrapper">
+    <div className="wrapper about_banner_wrapper">
       <div className="container banner_container">
         <div className="banner_left_container">
           <h2 className="about_banner_title">
