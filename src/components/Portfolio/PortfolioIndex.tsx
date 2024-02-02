@@ -20,7 +20,7 @@ const PortfolioIndex = () => {
             <a href=" " className="button banner_button portfolio_button">
               VEJA MAIS PROJETOS
             </a>
-            <h3>Projetos em Destaque</h3>
+            <h3 className="portfolio_subtitle_orange">Projetos em Destaque</h3>
           </div>
         </div>
         <PortfolioCarousel />

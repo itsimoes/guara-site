@@ -14,10 +14,10 @@
   text-align: end;
 
   h2 {
-    color: var(--primary_orange);
+    color: var(--primary_white);
 
     span {
-      color: var(--primary_white);
+      color: var(--primary_orange);
     }
   }
 }
@@ -33,6 +33,10 @@
     color: var(--primary_white);
     font-size: 40px;
     font-weight: 600;
+  }
+
+  .portfolio_subtitle_orange {
+    color: var(--primary_orange);
   }
 }
 
@@ -56,22 +60,23 @@
 }
 
 .portfolio_atendimento_cards_container {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    width: 100%;
-    margin-top: 50px;
-    margin-bottom: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .portfolio_atendimento_card {
-    margin: 10px;
-    border: 2px solid var(--primary_white);
-
-    &:hover {
-    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-
-    }
+  margin: 10px;
+  border: 2px solid var(--primary_white);
+  transition: box-shadow 0.3s ease;
+  &:hover {
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
+      rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    transition: box-shadow 0.3s ease;
+  }
 }
 
 //Carousel
@@ -80,8 +85,8 @@
   width: 95%;
   height: 330px;
   margin: 0 auto;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 .projetos_carousel_card {
@@ -118,4 +123,120 @@
 #projetos_carousel_5 {
   background: url("../../assets/images/iphone720p.png") top no-repeat;
   background-size: contain;
+}
+
+//Portfolio EXPANDED
+.portfolio_expanded_title {
+  width: 100%;
+
+  h2 {
+    color: var(--primary_orange);
+
+    span {
+      color: var(--primary_white);
+    }
+  }
+}
+
+.portfolio_expanded_cards_container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.portfolio_expanded_card {
+  display: flex;
+  align-items: flex-end;
+  width: 300px;
+  height: 400px;
+  margin: 20px;
+  border: 2px solid var(--primary_white);
+  transition: all 0.3s ease;
+  position: relative;
+
+  .portfolio_expanded_card_span {
+    width: 300px;
+    height: 400px;
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(#fff, 0.7);
+    color: var(--primary_black);
+    transition: all 0.3s ease;
+  }
+
+  .portfolio_expanded_span_title {
+    font-size: 20px;
+    font-weight: 700;
+    width: 80%;
+    text-align: center;
+  }
+
+  .portfolio_expanded_span_text {
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 90%;
+    text-align: center;
+  }
+
+  .portfolio_expanded_card_button {
+    color: var(--primary_black);
+    border: 2px solid var(--primary_black);
+    font-weight: 500;
+    transition: all 0.3s ease;
+
+    &:hover {
+      color: var(--primary_white);
+      border: 2px solid var(--primary_orange);
+      transition: all 0.3s ease;
+    }
+  }
+
+  &:hover {
+    border: 2px solid var(--primary_orange);
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
+      rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    transition: all 0.3s ease;
+    p {
+      display: none;
+      transition: all 0.3s ease;
+    }
+    .portfolio_expanded_card_span {
+      display: flex;
+      transition: all 0.3s ease;
+    }
+  }
+
+  p {
+    position: absolute;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    text-shadow: 1px 0 #000, -1px 0 #000, 0 1px #000, 0 -1px #000, 1px 1px #000,
+      -1px -1px #000, 1px -1px #000, -1px 1px #000;
+  }
+}
+.portfolio_expanded_card_soon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: 400px;
+  margin: 20px;
+  border: 2px solid var(--primary_white);
+  font-size: 25px;
+  transition: all 0.3s ease;
+
+  &:hover {
+    border: 2px solid var(--primary_orange);
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
+      rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    transition: all 0.3s ease;
+  }
 }
