@@ -28,12 +28,11 @@
 .banner_logo {
   width: 300px;
   height: auto;
-  
+
   g {
     fill: var(--primary_black);
   }
 }
-
 
 //Clients banner
 .clients_wrapper {
@@ -67,4 +66,90 @@
   width: 90%; //change to 100% if there's more client logos
   justify-content: space-evenly;
   flex-wrap: wrap;
+}
+
+//Contact Banner White
+.contact_banner_white {
+  background-color: var(--primary_white);
+}
+
+.contact_banner_white_title {
+  color: var(--primary_orange);
+  align-self: flex-end;
+
+  span {
+    color: var(--primary_black);
+  }
+}
+
+.contact_banner_text_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  h3 {
+    font-size: 30px;
+  }
+}
+
+.contact_banner_button_orange {
+  background-color: var(--primary_orange);
+  color: var(--primary_white);
+  margin-right: 70px;
+  border: 2px solid var(--primary_orange);
+  &:hover {
+    background-color: var(--primary_white);
+    color: var(--primary_orange);
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
+      rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  }
+  &:active {
+    margin-top: 2px;
+    margin-bottom: 0px;
+    box-shadow: rgba(227, 80, 0, 0.19) 0px 10px 15px,
+      rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  }
+}
+
+//Contact Banner Orange
+.contact_banner_orange_wrapper {
+  background-color: var(--primary_orange);
+}
+.contact_banner_orange_title {
+  color: var(--primary_black);
+  align-self: flex-end;
+
+  span {
+    color: var(--primary_white);
+  }
+}
+
+.contact_banner_button_white {
+  background-color: var(--primary_white);
+  color: var(--primary_orange);
+  margin-right: 70px;
+  border: 2px solid var(--primary_white);
+
+  &:hover {
+    background-color: var(--primary_orange);
+    color: var(--primary_white);
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
+      rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  }
+  &:active {
+    margin-top: 2px;
+    margin-bottom: 0px;
+    box-shadow: rgba(227, 80, 0, 0.19) 0px 10px 15px,
+      rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  }
+}
+
+.contact_border_white_detail {
+  align-self: flex-end;
+
+  line {
+    stroke: var(--primary_white);
+  }
 }

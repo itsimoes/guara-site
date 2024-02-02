@@ -18,7 +18,7 @@ function App() {
       <ClientsBanner />
       <PortfolioIndex />
       <Contact />
-      <Footer />      
+      <Footer />        
     </>
   );
 }
