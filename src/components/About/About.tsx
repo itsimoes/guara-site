@@ -24,7 +24,7 @@ const About = () => {
           </p>
           <p>
             Com vasto conhecimento nos setores que atendemos, podemos
-            proporcionar às melhores soluções em relação à praticidade,
+            proporcionar as melhores soluções em relação à praticidade,
             agilidade, funcionalidade e estética para seu negócio.
           </p>
         </div>
