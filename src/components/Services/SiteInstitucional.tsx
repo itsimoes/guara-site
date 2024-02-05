@@ -9,7 +9,7 @@ import { PiNumberCircleTwoLight } from "react-icons/pi";
 import { PiNumberCircleThreeLight } from "react-icons/pi";
 
 
-const SiteInstituional = () => {
+const SiteInstitucional = () => {
   return (
     <div className="wrapper services_wrapper">
       <div className="container site_institucional_container">
@@ -88,4 +88,4 @@ const SiteInstituional = () => {
   );
 };
 
-export default SiteInstituional;
+export default SiteInstitucional;

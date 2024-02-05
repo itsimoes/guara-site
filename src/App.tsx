@@ -7,7 +7,6 @@ import PortfolioIndex from "./components/Portfolio/PortfolioIndex";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import Navbar from "./components/Navbar/Navbar";
-import SiteInstituional from "./components/Services/SiteInstituional";
 
 function App() {
   return (
@@ -19,8 +18,7 @@ function App() {
       <ClientsBanner />
       <PortfolioIndex />
       <Contact />
-      <Footer />
-      <SiteInstituional />
+      <Footer />   
     </>
   );
 }
