@@ -87,6 +87,23 @@
   display: none;
 }
 
+.portfolio_projects_mobile_container {
+  display: none;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.portfolio_projects_mobile_card {
+  margin: 10px;
+  img {
+    width: 130px;
+    height: auto;
+    border: 2px solid var(--primary_white);
+  }
+}
+
 //Carousel
 
 .projetos_carousel_wrapper {
@@ -251,19 +268,31 @@
 
 //media query MOBILE
 @media (max-width: 431px) {
+  .portfolio_container {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .projetos_carousel_wrapper {
+    display: none;
+  }
+
+  .portfolio_projects_mobile_container {
+    display: flex;
+  }
 
   .portfolio_subtitle_container {
-
     a {
       display: none;
     }
 
-    flex-direction: column;    
+    flex-direction: column;
   }
 
   #portfolio_projects_button_mobile {
     display: flex;
-    margin-bottom: 80px;
+    margin-top: 40px;
+    margin-bottom: 40px;
   }
   .projetos_carousel_wrapper {
     margin-top: 30px;
@@ -271,7 +300,7 @@
   }
   .projetos_carousel_card {
     height: 270px;
-    width: 300px;    
+    width: 270px;
   }
 
   .portfolio_atendimento_cards_container {
