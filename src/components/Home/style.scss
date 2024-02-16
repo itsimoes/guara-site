@@ -1,29 +1,46 @@
 .home_wrapper {
-    height: 100vh;
-    background: url("../../assets/images/home-bg.jpg") top right no-repeat;
-    background-size: 112%;
+  height: 100vh;
+  background: url("../../assets/images/home-bg.jpg") top right no-repeat;
+  background-size: cover;
 }
 
-// .home_watermark {
-//     font-family: "Kreon", serif;
-//     font-size: 125px;
-//     line-height: 0.8;
-//     color: var(--primary-transparent_gray);
-//     -webkit-text-stroke: 2px rgba(204, 204, 204, 0.25);
-//     margin-right: 800px;
-//     margin-top: 250px;
-// }
+.home_container {
+  width: 100%;
+  height: 100%;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
 
 .home_logo {
-    width: 280px;
-    margin-right: 800px;
-    margin-top: 250px;
+  width: 280px;
 }
 
 .home_card_container {
-    h1 {
-        font-size: 22px;
-        color: var(--primary_orange);
-        font-weight: 400;
-    }
+  padding: 100px;
+
+  h1 {
+    font-size: 22px;
+    color: var(--primary_orange);
+    font-weight: 400;
+  }
+}
+
+//media query MOBILE
+@media (max-width: 431px) {
+  .home_wrapper {
+    background-size: cover;
+    background-position: left;
+  }
+
+  .home_container {
+    align-items: center;
+    justify-content: center;
+  }
+
+  .home_card_container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }

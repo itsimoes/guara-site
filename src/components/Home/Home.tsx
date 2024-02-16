@@ -7,10 +7,7 @@ const Home = () => {
   return (
     <div className="wrapper home_wrapper">
       <div className="container home_container">
-        <div className="home_card_container">
-          {/* <div className="home_watermark">
-            www.
-          </div> */}
+        <div className="home_card_container">        
           <img src={HomeLogo} className="home_logo" alt="" />
           <h1>
             - <br/>
