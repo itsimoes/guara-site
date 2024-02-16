@@ -12,10 +12,13 @@ const AboutBanner = () => {
           <h2 className="about_banner_title">
             <span>_</span>QUEM SOMOS?
           </h2>
+          <a href=" " id="about_button_mobile" className="button banner_button">
+            SOBRE A GUARÁ
+          </a>
           <BorderDetailLeft />
         </div>
         <LogoMonocrom className="banner_logo" />
-        <a href=" " className="button banner_button">
+        <a href=" " id="about_button_desktop" className="button banner_button">
           SOBRE A GUARÁ
         </a>
       </div>
