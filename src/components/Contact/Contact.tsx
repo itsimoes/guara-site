@@ -28,7 +28,7 @@ const Contact = () => {
               target="_blank"
               className="contact_whatsapp_link"
             >
-              +559832368915{" "}
+              +559832368915
             </a>
             .
           </p>
