@@ -136,3 +136,40 @@
       rgba(0, 0, 0, 0.23) 0px 6px 6px;
   }
 }
+
+//media query MOBILE
+@media (max-width: 431px) {
+
+  .contact_wrapper {
+    height: auto;
+    max-height: fit-content;
+
+    &::before {
+      display: none;    
+    }
+  }
+
+  .contact_container {
+    flex-direction: column;
+  }
+
+  .contact_form_container {
+    width: auto;
+  }
+  .contact_text_container {
+    width: auto;
+    margin-top: 50px;
+
+    h3 {
+      font-size: 38px;
+    }
+
+    h4 {
+      font-size: 25px; ;
+    }
+  }
+
+  .contact_form_wrapper {
+    width: 100%;
+  }
+}

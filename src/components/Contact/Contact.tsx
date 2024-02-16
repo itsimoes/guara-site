@@ -4,7 +4,7 @@ import ContactForm from "./ContactForm";
 
 const Contact = () => {
   return (
-    <div className="wrapper contact_wrapper">
+    <div id="contact" className="wrapper contact_wrapper">
       <div className="container contact_container">
         <div className="contact_form_container">
           <ContactForm />
