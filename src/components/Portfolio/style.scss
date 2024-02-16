@@ -49,6 +49,10 @@
   }
 }
 
+#portfolio_projects_button_mobile {
+  display: none;
+}
+
 .portfolio_button_reverse {
   background-color: var(--primary_white);
   color: var(--primary_orange);
@@ -77,6 +81,10 @@
       rgba(0, 0, 0, 0.23) 0px 6px 6px;
     transition: box-shadow 0.3s ease;
   }
+}
+
+#portfolio_button_atendimento_mobile {
+  display: none;
 }
 
 //Carousel
@@ -238,5 +246,44 @@
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
       rgba(0, 0, 0, 0.23) 0px 6px 6px;
     transition: all 0.3s ease;
+  }
+}
+
+//media query MOBILE
+@media (max-width: 431px) {
+
+  .portfolio_subtitle_container {
+
+    a {
+      display: none;
+    }
+
+    flex-direction: column;    
+  }
+
+  #portfolio_projects_button_mobile {
+    display: flex;
+    margin-bottom: 80px;
+  }
+  .projetos_carousel_wrapper {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .projetos_carousel_card {
+    height: 270px;
+    width: 300px;    
+  }
+
+  .portfolio_atendimento_cards_container {
+    margin-top: 30px;
+    margin-bottom: 50px;
+  }
+
+  .portfolio_atendimento_card {
+    width: 120px;
+  }
+
+  #portfolio_button_atendimento_mobile {
+    display: flex;
   }
 }
