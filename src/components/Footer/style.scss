@@ -106,3 +106,25 @@
   width: 25px;
   height: auto;
 }
+
+//media query MOBILE
+@media (max-width: 431px) {
+  .footer_container {
+    justify-content: center;
+    padding: 30px;
+  }
+  .footer_suggestions_card {
+    width: 300px;
+    margin-bottom: 50px;
+    text-align: center;
+    order: 1;
+  }
+  .footer_logo {
+    margin-bottom: 50px;
+  }
+  .footer_socialmedia_card {
+    width: 300px;
+    order: 1;
+    align-items: center;
+  }
+}
