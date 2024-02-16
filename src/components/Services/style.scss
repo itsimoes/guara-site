@@ -276,3 +276,16 @@
 
   background: url("../../assets//images/border_detail_right.svg") no-repeat bottom right;
 }
+
+
+//media query MOBILE
+@media (max-width: 431px) { 
+  .services_container {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .services_card {
+    width: 280px;
+  }
+}
