@@ -52,7 +52,7 @@ class Navbar extends React.Component {
         onStateChange={(state) => this.handleStateChange(state)}
       >
         {/* <div className="darkmode_container"><DarkMode className="menu-item"/></div> */}
-        <ReactLink to="/" className="menu-item" onClick={() => this.closeMenu()}>
+        <ReactLink to="/guara-site" className="menu-item" onClick={() => this.closeMenu()}>
           <HiOutlineHome />
           Início
         </ReactLink>
