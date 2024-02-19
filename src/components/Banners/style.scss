@@ -162,6 +162,10 @@
   }
 }
 
+#contact_banner_h3_mobile {
+  display: none;
+}
+
 //media query MOBILE
 @media (max-width: 431px) {
   .banner_container {
@@ -183,5 +187,24 @@
 
   .banner_logo {
     width: 280px;
+  }
+
+  #contact_banner_h3_desktop {
+    display: none;
+  }
+  #contact_banner_h3_mobile {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .contact_banner_text_container {
+    justify-content: center;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  .contact_banner_button_orange {
+    margin-right: 0;
   }
 }

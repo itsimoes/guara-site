@@ -10,8 +10,9 @@ const ContactBannerWhite = () => {
         <h2 className="contact_banner_white_title">
           <span>_</span>ENTRE EM CONTATO
         </h2>
+        <h3 id="contact_banner_h3_mobile">Quer solicitar um orçamento?</h3>
         <div className="contact_banner_text_container">
-          <h3>Quer solicitar um orçamento?</h3>
+          <h3 id="contact_banner_h3_desktop">Quer solicitar um orçamento?</h3>
           <a className="button banner_button contact_banner_button_orange" href="">FALE CONOSCO</a>
         </div>
         <BorderDetailRight className="clients_border_detail" />
