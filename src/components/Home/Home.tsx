@@ -5,7 +5,7 @@ import HomeLogo from "../../assets/images/logo_main_color.png"
 
 const Home = () => {
   return (
-    <div className="wrapper home_wrapper">
+    <div id="home" className="wrapper home_wrapper">
       <div className="container home_container">
         <div className="home_card_container">        
           <img src={HomeLogo} className="home_logo" alt="" />

@@ -8,7 +8,7 @@ import { GoLightBulb } from "react-icons/go";
 
 const ServicesIndex = () => {
   return (
-    <div className="wrapper services_wrapper">
+    <div id="services" className="wrapper services_wrapper">
       <div className="container services_container">
         <div className="services_title">
             <h2><span>_</span>SERVIÇOS</h2>

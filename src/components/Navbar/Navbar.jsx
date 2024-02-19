@@ -24,10 +24,10 @@ class Navbar extends React.Component {
       <Menu>
         {/* <div className="darkmode_container"><DarkMode className="menu-item"/></div> */}
         <Link to="home" smooth className="menu-item" ><HiOutlineHome/>Início</Link>
-        <Link to="development" smooth className="menu-item" ><HiOutlineCodeBracketSquare />Quem Somos?</Link>
-        <Link to="itsupport" smooth className="menu-item" ><HiOutlineWrenchScrewdriver/>Serviços</Link>      
-        <Link to="projects" smooth className="menu-item" ><CgWebsite/>Portfolio</Link>             
-        <Link to="projects" smooth className="menu-item" ><HiOutlinePhoto/>Galeria</Link>             
+        <Link to="about" smooth className="menu-item" ><HiOutlineCodeBracketSquare />Quem Somos?</Link>
+        <Link to="services" smooth className="menu-item" ><HiOutlineWrenchScrewdriver/>Serviços</Link>      
+        <Link to="portfolio" smooth className="menu-item" ><CgWebsite/>Portfolio</Link>             
+        <Link to="gallery" smooth className="menu-item" ><HiOutlinePhoto/>Galeria</Link>             
         <Link to="contact" smooth className="menu-item" ><HiOutlineChatBubbleLeftRight/>Contato</Link>   
         <img src={MenuLogoColor} className="navbar_menu_logo" alt="" />
         {/* <a onClick={ this.showSettings } className="menu-item--small" href="">Settings</a> */}
