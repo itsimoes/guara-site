@@ -1,6 +1,7 @@
 import React from "react";
 import PortfolioCarousel from "./PortfolioCarousel";
 import "./style.scss";
+import { Link as ReactLink } from "react-router-dom";
 
 //images
 import ProjetosThumbBarros from "../../assets/images/thumb_barros.png";
@@ -21,9 +22,18 @@ const PortfolioIndex = () => {
             <span>_</span>PORTFOLIO
           </h2>
           <div className="portfolio_subtitle_container">
-            <a href=" " className="button banner_button portfolio_button">
+            <ReactLink
+              to="/portfolio"
+              onClick={() => {
+                window.scroll({
+                  top: 0,
+                  left: 0,
+                });
+              }}
+              className="button banner_button portfolio_button"
+            >
               VEJA MAIS PROJETOS
-            </a>
+            </ReactLink>
             <h3 className="portfolio_subtitle_orange">Projetos em Destaque</h3>
           </div>
         </div>
@@ -39,7 +49,7 @@ const PortfolioIndex = () => {
             </a>
           </div>
           <div className="portfolio_projects_mobile_card">
-            <a              
+            <a
               href="https://andreviniciussg.github.io/gorillaz/"
               rel="noreferrer"
               target="_blank"
@@ -48,7 +58,7 @@ const PortfolioIndex = () => {
             </a>
           </div>
           <div className="portfolio_projects_mobile_card">
-            <a              
+            <a
               href="https://itsimoes.github.io/trekking-01/"
               rel="noreferrer"
               target="_blank"
@@ -57,7 +67,7 @@ const PortfolioIndex = () => {
             </a>
           </div>
           <div className="portfolio_projects_mobile_card">
-            <a              
+            <a
               href="https://itsimoes.github.io/clinica-veterinaria"
               rel="noreferrer"
               target="_blank"
@@ -66,18 +76,33 @@ const PortfolioIndex = () => {
             </a>
           </div>
         </div>
-        <a
-          href=" "
+        <ReactLink
+          to="/portfolio"
+          onClick={() => {
+            window.scroll({
+              top: 0,
+              left: 0,
+            });
+          }}
           id="portfolio_projects_button_mobile"
           className="button banner_button portfolio_button"
         >
           VEJA MAIS PROJETOS
-        </a>
+        </ReactLink>
         <div className="portfolio_subtitle_container">
           <h3>Atendimentos em Destaque</h3>
-          <a href=" " className="button banner_button portfolio_button_reverse">
+          <ReactLink
+            to="/galeria"
+            onClick={() => {
+              window.scroll({
+                top: 0,
+                left: 0,
+              });
+            }}
+            className="button banner_button portfolio_button_reverse"
+          >
             VEJA MAIS ATENDIMENTOS
-          </a>
+          </ReactLink>
         </div>
         <div className="portfolio_atendimento_cards_container">
           <img
@@ -101,13 +126,19 @@ const PortfolioIndex = () => {
             className="portfolio_atendimento_card"
           />
         </div>
-        <a
-          href=" "
+        <ReactLink
+          to="/galeria"
+          onClick={() => {
+            window.scroll({
+              top: 0,
+              left: 0,
+            });
+          }}
           id="portfolio_button_atendimento_mobile"
           className="button banner_button portfolio_button_reverse"
         >
           VEJA MAIS ATENDIMENTOS
-        </a>
+        </ReactLink>
       </div>
     </div>
   );

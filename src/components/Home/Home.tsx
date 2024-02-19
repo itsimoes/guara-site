@@ -1,5 +1,6 @@
 import React from "react";
 import "./style.scss";
+import { Link } from "react-scroll";
 
 import HomeLogo from "../../assets/images/logo_main_color.png"
 
@@ -14,7 +15,7 @@ const Home = () => {
             DESENVOLVIMENTO WEB & <br/>
             SUPORTE DE TI
           </h1>
-          <a href=" " className="button home_button">SERVIÇOS</a>
+          <Link to="services" smooth className="button home_button">SERVIÇOS</Link>
         </div>
       </div>
     </div>

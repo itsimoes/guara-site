@@ -1,24 +1,26 @@
 import React from "react";
-import Home from "./components/Home/Home";
-import AboutBanner from "./components/Banners/AboutBanner";
-import ServicesIndex from "./components/Services/ServicesIndex";
-import ClientsBanner from "./components/Banners/ClientsBanner";
-import PortfolioIndex from "./components/Portfolio/PortfolioIndex";
-import Contact from "./components/Contact/Contact";
-import Footer from "./components/Footer/Footer";
 import Navbar from "./components/Navbar/Navbar";
+import { Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
+import SiteInstitucional from "./components/Services/SiteInstitucional";
+import SuporteDeTI from "./components/Services/SuporteDeTI";
+import PortfolioExpanded from "./components/Portfolio/PortfolioExpanded";
+import AboutPage from "./Pages/About/AboutPage";
+import HomePage from "./Pages/Home/HomePage";
 
 function App() {
   return (
     <>
-      <Navbar />
-      <Home />
-      <AboutBanner />
-      <ServicesIndex />
-      <ClientsBanner />
-      <PortfolioIndex />
-      <Contact />
-      <Footer />   
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/about" element={<AboutPage />} />
+          <Route path="/siteinstitucional" element={<SiteInstitucional />} />
+          <Route path="/suporte" element={<SuporteDeTI />} />
+          <Route path="/portfolio" element={<PortfolioExpanded />} />
+        </Routes>
+      </Router>
     </>
   );
 }

@@ -2,6 +2,7 @@ import React from "react";
 import "./style.scss";
 import { elastic as Menu } from "react-burger-menu";
 import { Link } from "react-scroll";
+import { Link as ReactLink } from "react-router-dom";
 
 import MenuLogoColor from "../../assets/images/logo_main_color.png";
 
@@ -23,11 +24,11 @@ class Navbar extends React.Component {
     return (
       <Menu>
         {/* <div className="darkmode_container"><DarkMode className="menu-item"/></div> */}
-        <Link to="home" smooth className="menu-item" ><HiOutlineHome/>Início</Link>
-        <Link to="about" smooth className="menu-item" ><HiOutlineCodeBracketSquare />Quem Somos?</Link>
+        <ReactLink to="/" className="menu-item" ><HiOutlineHome/>Início</ReactLink>
+        <ReactLink to="/about" className="menu-item" ><HiOutlineCodeBracketSquare />Quem Somos?</ReactLink>
         <Link to="services" smooth className="menu-item" ><HiOutlineWrenchScrewdriver/>Serviços</Link>      
-        <Link to="portfolio" smooth className="menu-item" ><CgWebsite/>Portfolio</Link>             
-        <Link to="gallery" smooth className="menu-item" ><HiOutlinePhoto/>Galeria</Link>             
+        <ReactLink to="/portfolio"  className="menu-item" ><CgWebsite/>Portfolio</ReactLink>             
+        <ReactLink to="/gallery" className="menu-item" ><HiOutlinePhoto/>Galeria</ReactLink>             
         <Link to="contact" smooth className="menu-item" ><HiOutlineChatBubbleLeftRight/>Contato</Link>   
         <img src={MenuLogoColor} className="navbar_menu_logo" alt="" />
         {/* <a onClick={ this.showSettings } className="menu-item--small" href="">Settings</a> */}
