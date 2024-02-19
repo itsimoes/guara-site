@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/guara-site/static/css/main.7a2c8902.css",
+    "main.js": "/guara-site/static/js/main.513988ca.js",
+    "static/js/787.9f9c990d.chunk.js": "/guara-site/static/js/787.9f9c990d.chunk.js",
+    "static/media/restaurante720p.png": "/guara-site/static/media/restaurante720p.840955d1fcb19efc75c3.png",
+    "static/media/barros720p.png": "/guara-site/static/media/barros720p.29b0a041af37e480ced3.png",
+    "static/media/home-bg.jpg": "/guara-site/static/media/home-bg.27f05ccb360987a516cb.jpg",
+    "static/media/studio720p.png": "/guara-site/static/media/studio720p.2135c5338bc63551040b.png",
+    "static/media/clinica_veterinaria720p.png": "/guara-site/static/media/clinica_veterinaria720p.915d19e9ba8397c5d344.png",
+    "static/media/thumb_hiking.png": "/guara-site/static/media/thumb_hiking.edaf82b592c477016de9.png",
+    "static/media/thumb_restaurante.png": "/guara-site/static/media/thumb_restaurante.8c6fda0e2d3e1b5f74e7.png",
+    "static/media/logo_main_color.png": "/guara-site/static/media/logo_main_color.e12b097ac5a960709537.png",
+    "static/media/thumb_gorillaz.png": "/guara-site/static/media/thumb_gorillaz.9a74a4ea4e61f6a95c6f.png",
+    "static/media/thumb_barros.png": "/guara-site/static/media/thumb_barros.51cb5530e372ded9a8f1.png",
+    "static/media/thumb_iphone.png": "/guara-site/static/media/thumb_iphone.1d6e9724b1329014f5c4.png",
+    "static/media/iphone720p.png": "/guara-site/static/media/iphone720p.880d6389f1261b3e4e25.png",
+    "static/media/atendimento_thumb_2.png": "/guara-site/static/media/atendimento_thumb_2.ba99f1a23ca8cbe52bda.png",
+    "static/media/thumb_studio.png": "/guara-site/static/media/thumb_studio.dab68cb5d498164f5435.png",
+    "static/media/atendimento_thumb_3.png": "/guara-site/static/media/atendimento_thumb_3.4844dd2963b6908b31c6.png",
+    "static/media/atendimento_thumb_4.png": "/guara-site/static/media/atendimento_thumb_4.b886501c6f0e660b6078.png",
+    "static/media/atendimento_thumb_1.png": "/guara-site/static/media/atendimento_thumb_1.00ae6771c3ffac964cd1.png",
+    "static/media/mayara_serra.svg": "/guara-site/static/media/mayara_serra.fda828e42527482f0bd778a94e0835d1.svg",
+    "static/media/barros_consultoria.svg": "/guara-site/static/media/barros_consultoria.cecdc9e467e7d21cca535cb0a1e611c7.svg",
+    "static/media/thumb_veterinaria.png": "/guara-site/static/media/thumb_veterinaria.00f765e473d9d00d3b07.png",
+    "static/media/logo_main_monocrom.svg": "/guara-site/static/media/logo_main_monocrom.f6090664abcef55a0e67c0fb100d18d1.svg",
+    "static/media/norma_silva_adv.svg": "/guara-site/static/media/norma_silva_adv.ab53afbef7198244bef55e1986391bda.svg",
+    "static/media/carvalho_engenharia.svg": "/guara-site/static/media/carvalho_engenharia.13e5cdaa7943683bea5e33afd6a698de.svg",
+    "static/media/logo_simbolo_monocrom.svg": "/guara-site/static/media/logo_simbolo_monocrom.a5798668d89e3333963e.svg",
+    "index.html": "/guara-site/index.html",
+    "static/media/border_detail_right.svg": "/guara-site/static/media/border_detail_right.7a00c84c2df19d5d12346ee984634d91.svg",
+    "static/media/border_detail_left.svg": "/guara-site/static/media/border_detail_left.b548dd80c6a624a0cd8e45a5276f8857.svg",
+    "main.7a2c8902.css.map": "/guara-site/static/css/main.7a2c8902.css.map",
+    "main.513988ca.js.map": "/guara-site/static/js/main.513988ca.js.map",
+    "787.9f9c990d.chunk.js.map": "/guara-site/static/js/787.9f9c990d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7a2c8902.css",
+    "static/js/main.513988ca.js"
+  ]
+}
