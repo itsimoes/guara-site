@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/guara-site/static/css/main.7a2c8902.css",
-    "main.js": "/guara-site/static/js/main.513988ca.js",
+    "main.js": "/guara-site/static/js/main.e7000fc3.js",
     "static/js/787.9f9c990d.chunk.js": "/guara-site/static/js/787.9f9c990d.chunk.js",
     "static/media/restaurante720p.png": "/guara-site/static/media/restaurante720p.840955d1fcb19efc75c3.png",
     "static/media/barros720p.png": "/guara-site/static/media/barros720p.29b0a041af37e480ced3.png",
@@ -31,11 +31,11 @@
     "static/media/border_detail_right.svg": "/guara-site/static/media/border_detail_right.7a00c84c2df19d5d12346ee984634d91.svg",
     "static/media/border_detail_left.svg": "/guara-site/static/media/border_detail_left.b548dd80c6a624a0cd8e45a5276f8857.svg",
     "main.7a2c8902.css.map": "/guara-site/static/css/main.7a2c8902.css.map",
-    "main.513988ca.js.map": "/guara-site/static/js/main.513988ca.js.map",
+    "main.e7000fc3.js.map": "/guara-site/static/js/main.e7000fc3.js.map",
     "787.9f9c990d.chunk.js.map": "/guara-site/static/js/787.9f9c990d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7a2c8902.css",
-    "static/js/main.513988ca.js"
+    "static/js/main.e7000fc3.js"
   ]
 }
