@@ -33,3 +33,11 @@
     text-align: justify;
   }
 }
+
+//media query MOBILE
+@media (max-width: 431px) {
+  .about_text_container {
+    width: auto;
+  }
+
+}
