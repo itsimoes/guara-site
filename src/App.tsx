@@ -3,10 +3,10 @@ import Navbar from "./components/Navbar/Navbar";
 import { Route, Routes } from "react-router-dom";
 import { BrowserRouter as Router } from "react-router-dom";
 import SiteInstitucionalPage from "./Pages/SiteInstitucional/SiteInsitucionalPage";
-import PortfolioExpanded from "./components/Portfolio/PortfolioExpanded";
 import AboutPage from "./Pages/About/AboutPage";
 import HomePage from "./Pages/Home/HomePage";
 import Suporte from "./Pages/Suporte/Suporte";
+import PortfolioPage from "./Pages/Portfolio/PortfolioPage";
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
           <Route path="/about" element={<AboutPage />} />
           <Route path="/siteinstitucional" element={<SiteInstitucionalPage />} />
           <Route path="/suporte" element={<Suporte/>} />
-          <Route path="/portfolio" element={<PortfolioExpanded />} />
+          <Route path="/portfolio" element={<PortfolioPage/>} />
         </Routes>
       </Router>
     </>
