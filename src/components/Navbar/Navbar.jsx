@@ -1,8 +1,8 @@
 import React from "react";
 import "./style.scss";
 import { elastic as Menu } from "react-burger-menu";
-import { Link } from "react-scroll";
 import { Link as ReactLink } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
 
 import MenuLogoColor from "../../assets/images/logo_main_color.png";
 
@@ -13,6 +13,8 @@ import { HiOutlineWrenchScrewdriver } from "react-icons/hi2";
 import { HiOutlineChatBubbleLeftRight } from "react-icons/hi2";
 import { HiOutlinePhoto } from "react-icons/hi2";
 import { CgWebsite } from "react-icons/cg";
+
+
 
 class Navbar extends React.Component {
   showSettings(event) {
@@ -52,30 +54,74 @@ class Navbar extends React.Component {
         onStateChange={(state) => this.handleStateChange(state)}
       >
         {/* <div className="darkmode_container"><DarkMode className="menu-item"/></div> */}
-        <ReactLink to="/guara-site" className="menu-item" onClick={() => this.closeMenu()}>
+        <ReactLink
+          to="/"
+          className="menu-item"
+          onClick={() => {
+            this.closeMenu();
+            window.scrollTo({ top: 0, behavior: "smooth" });
+          }}
+        >
           <HiOutlineHome />
           Início
         </ReactLink>
-        <ReactLink to="/about" className="menu-item" onClick={() => this.closeMenu()}>
+        <ReactLink
+          to="/about"
+          className="menu-item"
+          onClick={() => {
+            this.closeMenu();
+            window.scrollTo({ top: 0, behavior: "smooth" });
+          }}
+        >
           <HiOutlineCodeBracketSquare />
           Quem Somos?
         </ReactLink>
-        <Link to="services" smooth className="menu-item" onClick={() => this.closeMenu()}>
+        <HashLink
+          to="/#services"
+          smooth
+          className="menu-item"
+          onClick={() => {
+            this.closeMenu();
+            // window.scrollTo({bottom: -1200, behavior: "smooth" });
+          }}
+        >
           <HiOutlineWrenchScrewdriver />
           Serviços
-        </Link>
-        <ReactLink to="/portfolio" className="menu-item" onClick={() => this.closeMenu()}>
+        </HashLink>
+        <ReactLink
+          to="/portfolio"
+          className="menu-item"
+          onClick={() => {
+            this.closeMenu();
+            window.scrollTo({ top: 0, behavior: "smooth" });
+          }}
+        >
           <CgWebsite />
           Portfolio
         </ReactLink>
-        <ReactLink to="/gallery" className="menu-item" onClick={() => this.closeMenu()}>
+        <ReactLink
+          to="/gallery"
+          className="menu-item"
+          onClick={() => {
+            this.closeMenu();
+            window.scrollTo({ top: 0, behavior: "smooth" });
+          }}
+        >
           <HiOutlinePhoto />
           Galeria
         </ReactLink>
-        <Link to="contact" smooth className="menu-item" onClick={() => this.closeMenu()}>
+        <HashLink
+          to="/#contact"
+          smooth
+          className="menu-item"
+          onClick={() => {
+            this.closeMenu();
+            window.scrollTo({ top: 0, behavior: "smooth" });
+          }}
+        >
           <HiOutlineChatBubbleLeftRight />
           Contato
-        </Link>
+        </HashLink>
         <img src={MenuLogoColor} className="navbar_menu_logo" alt="" />
         {/* <a onClick={ this.showSettings } className="menu-item--small" href="">Settings</a> */}
       </Menu>

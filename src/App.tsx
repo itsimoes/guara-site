@@ -7,14 +7,16 @@ import AboutPage from "./Pages/About/AboutPage";
 import HomePage from "./Pages/Home/HomePage";
 import Suporte from "./Pages/Suporte/Suporte";
 import PortfolioPage from "./Pages/Portfolio/PortfolioPage";
+import ScrollBehavior from "./components/Navbar/ScrollBehavior.jsx"
 
 function App() {
   return (
     <>
       <Router>
         <Navbar />
+        <ScrollBehavior />
         <Routes>
-          <Route path="/guara-site" element={<HomePage />} />
+          <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/siteinstitucional" element={<SiteInstitucionalPage />} />
           <Route path="/suporte" element={<Suporte/>} />
